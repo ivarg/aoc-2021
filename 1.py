@@ -12,6 +12,6 @@ def two(input):
 
 
 if __name__ == "__main__":
-    i = read_ints()
+    i = read_ints("input-1.txt")
     print("one: {}".format(one(i)))
     print("two: {}".format(two(i)))
